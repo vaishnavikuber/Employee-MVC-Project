@@ -1,0 +1,76 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    /*    border:2px solid red;*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /*    background-color:burlywood;*/
+    background-image: url("https://img.freepik.com/premium-photo/keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.jpg?semt=ais_hybrid");
+    height: 520px;
+    width: 750px;
+}
+
+.addemployeeform {
+/*    border: 2px solid red;*/
+    
+    padding:40px;
+    clear: both;
+    height:490px;
+    width: 350px;
+
+    border-radius:20px;
+
+}
+
+
+.form-group {
+/*    border: 2px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    height:40px;
+    width:350px;
+
+}
+
+.control-label {
+    /*    border: 2px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 40px;
+    width: 180px;
+    color:white;
+
+}
+
+.form-control {
+/*    border: 2px solid red;*/
+    border-radius:15px;
+}
+
+.btn-btn-primary {
+    background-color: darkslateblue;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+.form-group1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
